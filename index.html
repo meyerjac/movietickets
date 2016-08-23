@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+    <link href="css/styles.css" rel="stylesheet" type="text/css">
+    <script src="js/jquery.js"></script>
+    <script src="js/scripts.js"></script>
+    <title>Movie Tickets</title>
+  </head>
+  <body>
+    <h1>Welcome to Cinetopia with Jackson and David!</h1>
+    <h2>this is a theater where we act out famous movies!</h2>
+    <h3>please fill out the form below and we will tell you the cost of the ticket!</h3>
+    <div class="container">
+      <form>
+        <div class="box1">
+        <select class="form-control" id="age">
+          <option value="1"> 0-14 years old </option>  <!--this is a cheaper ticket-->
+          <option value="2"> 15-64 years old </option> <!--this is an expensive ticket-->
+          <option value="3"> 65-150 years old </option> <!--this is an expensive ticket-->
+
+        </select>
+        </div>
+        <div class="box2">
+        <select class="form-control" id="movieTitle">
+          <option value="1"> Pirates of the caribbean 10 3D IMAX </option> <!--this is an expensive ticket-->
+          <option value="2"> Monsters Inc </option> <!--this is a cheaper ticket-->
+          <option value="3"> finding nemo </option> <!--this is an cheaper ticket-->
+        </select>
+        </div>
+        <div class="box3">
+        <select class="form-control" id="showtime">
+          <option value="1"> noon </option> <!--this is a cheaper ticket-->
+          <option value="2"> 2:30pm </option> <!--this is a cheaper ticket-->
+          <option value="3"> 11:45pm </option> <!--this is an expensive ticket-->
+        </select>
+        </div>
+      <button id="submit" class = "btn btn-primary" name="button">get my tickets!</button>
+      </form>
+      <div class="price">
+        <div class="exp">
+          <h2>You did it, you cheapskate!</h2>
+
+        </div>
+        <div class="cheaper">
+          <h2>You did it!</h2>
+
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
